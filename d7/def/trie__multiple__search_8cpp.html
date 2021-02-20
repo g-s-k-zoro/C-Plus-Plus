@@ -126,14 +126,72 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf9e6b7e6f15df4b525a2e7705ba3089"><td class="memItemLeft" align="right" valign="top"><a id="abf9e6b7e6f15df4b525a2e7705ba3089"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, char const *argv[])</td></tr>
+<tr class="memitem:abf9e6b7e6f15df4b525a2e7705ba3089"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/trie__multiple__search_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089">main</a> (int argc, char const *argv[])</td></tr>
 <tr class="separator:abf9e6b7e6f15df4b525a2e7705ba3089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dd/d2f/class_trie.html">Trie</a> datastructure with search variants. </p>
 <p>This provides multiple variants of search functions on a trie structure utilizing STL. The trie is valid for only English alphabets. </p><dl class="section author"><dt>Author</dt><dd>Ghanashyam (<a href="https://github.com/g-s-k-zoro">https://github.com/g-s-k-zoro</a>) </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="abf9e6b7e6f15df4b525a2e7705ba3089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9e6b7e6f15df4b525a2e7705ba3089">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Main Function </p><dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
+<div class="fragment"><div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                                       {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="../../df/d8e/class_tnode.html">Tnode</a>* root = <span class="keyword">new</span> <a class="code" href="../../df/d8e/class_tnode.html">Tnode</a>();</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;string&gt;</a> inputs = {<span class="stringliteral">&quot;abcde&quot;</span>, <span class="stringliteral">&quot;sss&quot;</span>,   <span class="stringliteral">&quot;ssss&quot;</span>,  <span class="stringliteral">&quot;ssst&quot;</span>,   <span class="stringliteral">&quot;sssu&quot;</span>,</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                             <span class="stringliteral">&quot;sssv&quot;</span>,  <span class="stringliteral">&quot;sst&quot;</span>,   <span class="stringliteral">&quot;ssts&quot;</span>,  <span class="stringliteral">&quot;sstt&quot;</span>,   <span class="stringliteral">&quot;sstu&quot;</span>,</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                             <span class="stringliteral">&quot;tutu&quot;</span>,  <span class="stringliteral">&quot;tutuv&quot;</span>, <span class="stringliteral">&quot;tutuu&quot;</span>, <span class="stringliteral">&quot;tutuvs&quot;</span>, <span class="stringliteral">&quot;tutus&quot;</span>,</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                             <span class="stringliteral">&quot;tvst&quot;</span>,  <span class="stringliteral">&quot;tvsu&quot;</span>,  <span class="stringliteral">&quot;vvvv&quot;</span>};</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; </div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i : inputs) root-&gt;Insert(i);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; root-&gt;SearchPresence(<span class="stringliteral">&quot;tutu&quot;</span>) &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    root-&gt;SearchSuggestions(<span class="stringliteral">&quot;tutu&quot;</span>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; root-&gt;SearchPresence(<span class="stringliteral">&quot;tutu&quot;</span>) &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    root-&gt;Delete(<span class="stringliteral">&quot;vvvv&quot;</span>);</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160; </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    root-&gt;SearchSuggestions(<span class="stringliteral">&quot;tutuv&quot;</span>);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; root-&gt;SearchPresence(<span class="stringliteral">&quot;tutuv&quot;</span>) &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    root-&gt;SearchSuggestions(<span class="stringliteral">&quot;tutuvs&quot;</span>);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160; </div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    root-&gt;SearchFreqSuggestions(</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="stringliteral">&quot;tu&quot;</span>);  <span class="comment">// The top 3 frequent entries with prefix tu are tutu, tutuv &amp;</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                <span class="comment">// tutuvs respectively</span></div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    root-&gt;SearchSuggestions(</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="stringliteral">&quot;&quot;</span>);  <span class="comment">// Empty search to list all the entries in the trie</span></div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;}</div>
+<div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
+<div class="ttc" id="aclass_tnode_html"><div class="ttname"><a href="../../df/d8e/class_tnode.html">Tnode</a></div><div class="ttdoc">Class defining the structure of trie node and containing the methods to perform operations on them.</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:26</div></div>
+<div class="ttc" id="amatrix__exponentiation_8cpp_html_a600eaf353befc174637855795f12d258"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a></div><div class="ttdeci">#define endl</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:36</div></div>
+<div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

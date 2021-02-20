@@ -122,17 +122,17 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"cpp/io/manip/endl.html",
-"cpp/string/wide/towctrans.html",
-"d1/def/classdata__structures_1_1linked__list_1_1list.html#a50e209b55b83622254177050945e7826",
-"d4/d39/group__open__addressing.html",
-"d5/d91/namespacesorting.html#a4d76603c54d3dc56146e92d10a043924",
-"d7/d35/matrix__exponentiation_8cpp.html",
-"d8/dab/sparse__table_8cpp.html#a932816c3de9e5ad122b180de60978e8f",
-"da/d9a/class_graph.html#aa0aaff1a0c13bdf209ea40b83ac01ae6",
-"dc/dc5/paranthesis__matching_8cpp.html#ade525d33459755a32ba21e1b6910ff21",
-"df/d42/binary__search__tree2_8cpp.html"
+"annotated.html",
+"cpp/iterator/distance.html",
+"cpp/thread/lock.html",
+"d2/d21/gnome__sort_8cpp.html#a2f8bc626eb57acae24a94636a23af6a1",
+"d4/d7a/shell__sort2_8cpp.html#a895b313cb2671e8f712040460325573e",
+"d5/dab/structdata__structures_1_1list__array_1_1list.html#ac91272e6c970299e51cccd6cbdfe9e53",
+"d7/d77/class_edge.html#a0bc08bf5da251d66412a7dc3e50c6605",
+"d9/d02/linear__search_8cpp.html",
+"da/dd3/namespacespirograph.html",
+"dd/d1b/structquery.html#aedd873fb96eb4f83fb4289b1c58ce794",
+"df/d8e/class_tnode.html#a53e433054f582fb681e6f9d7000ae9b1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
