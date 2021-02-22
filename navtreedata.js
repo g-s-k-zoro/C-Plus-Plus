@@ -125,14 +125,14 @@ var NAVTREEINDEX =
 "annotated.html",
 "cpp/iterator/distance.html",
 "cpp/thread/lock.html",
-"d2/d21/gnome__sort_8cpp.html#a2f8bc626eb57acae24a94636a23af6a1",
-"d4/d7a/shell__sort2_8cpp.html#a895b313cb2671e8f712040460325573e",
-"d5/dab/structdata__structures_1_1list__array_1_1list.html#ac91272e6c970299e51cccd6cbdfe9e53",
-"d7/d77/class_edge.html#a0bc08bf5da251d66412a7dc3e50c6605",
-"d9/d02/linear__search_8cpp.html",
-"da/dd3/namespacespirograph.html",
-"dd/d1b/structquery.html#aedd873fb96eb4f83fb4289b1c58ce794",
-"df/d8e/class_tnode.html#a53e433054f582fb681e6f9d7000ae9b1"
+"d2/d05/class_min_heap.html#a2759e717e45edcd6ca7096ff03d65dbd",
+"d4/d5d/math_2armstrong__number_8cpp.html#ae1a3968e7947464bee7714f6d43b7002",
+"d5/da1/structnode.html#a7fae5430b43b30b3d1a546c05a678dfb",
+"d7/d6a/bisection__method_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"d8/dee/avltree_8cpp.html#a1ecfaaea49d452772dbb2b28133e36e0",
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905",
+"dd/d0c/hamiltons__cycle_8cpp.html#ae7880ce913f3058a35ff106d5be9e243",
+"df/d72/modular__division_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
