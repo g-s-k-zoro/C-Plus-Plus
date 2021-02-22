@@ -1,11 +1,14 @@
 var classtrie__operations_1_1_tnode =
 [
     [ "Tnode", "d0/d37/classtrie__operations_1_1_tnode.html#a055e503a83f4fd7fdb018f38234fa102", null ],
+    [ "Tnode", "d0/d37/classtrie__operations_1_1_tnode.html#ad7dccf87b7b20a1d78f82e0d7d81de16", null ],
+    [ "Tnode", "d0/d37/classtrie__operations_1_1_tnode.html#a187bfa799db44d9f75a07562045b1c73", null ],
     [ "~Tnode", "d0/d37/classtrie__operations_1_1_tnode.html#ac67031aabdcb102c413de84bf50b80f2", null ],
     [ "Delete", "d0/d37/classtrie__operations_1_1_tnode.html#a6a1bbdb26d414a68c3a9681646338dfe", null ],
     [ "DeleteFrom", "d0/d37/classtrie__operations_1_1_tnode.html#a1099c374369414cbd15dec89ab57f739", null ],
     [ "Insert", "d0/d37/classtrie__operations_1_1_tnode.html#a9a8bb309255bbf5adf65a31dd6abda19", null ],
     [ "numberOfChildren", "d0/d37/classtrie__operations_1_1_tnode.html#a6726f1b59bc58daa281888eab2d8e086", null ],
+    [ "operator=", "d0/d37/classtrie__operations_1_1_tnode.html#af4a4a13486adef1de6c87d341cac435e", null ],
     [ "SearchFreqSuggestions", "d0/d37/classtrie__operations_1_1_tnode.html#a59ac4ea03f9464948d0a075261be306e", null ],
     [ "SearchPresence", "d0/d37/classtrie__operations_1_1_tnode.html#a08bf8f69116fcc1532a57f580127bce8", null ],
     [ "SearchSuggestions", "d0/d37/classtrie__operations_1_1_tnode.html#a99c432c0df2cfecf17a2dabb803030f6", null ],
