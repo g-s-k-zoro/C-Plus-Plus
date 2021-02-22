@@ -57,6 +57,11 @@ var annotated_dup =
         [ "NCRModuloP", "d6/dc1/classmath_1_1ncr__modulo__p_1_1_n_c_r_modulo_p.html", "d6/dc1/classmath_1_1ncr__modulo__p_1_1_n_c_r_modulo_p" ]
       ] ]
     ] ],
+    [ "operations_on_datastructures", "da/d6d/namespaceoperations__on__datastructures.html", [
+      [ "trie_operations", null, [
+        [ "Tnode", "d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html", "d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode" ]
+      ] ]
+    ] ],
     [ "others", "d0/d6f/namespaceothers.html", [
       [ "postfix_expression", null, [
         [ "Stack", "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html", "d5/d8a/classothers_1_1postfix__expression_1_1_stack" ]
@@ -76,9 +81,6 @@ var annotated_dup =
     [ "statistics", "d2/dcf/namespacestatistics.html", [
       [ "stats_computer1", "d7/d7c/classstatistics_1_1stats__computer1.html", "d7/d7c/classstatistics_1_1stats__computer1" ],
       [ "stats_computer2", "d8/dab/classstatistics_1_1stats__computer2.html", "d8/dab/classstatistics_1_1stats__computer2" ]
-    ] ],
-    [ "trie_operations", "df/d8e/namespacetrie__operations.html", [
-      [ "Tnode", "d0/d37/classtrie__operations_1_1_tnode.html", "d0/d37/classtrie__operations_1_1_tnode" ]
     ] ],
     [ "binary_search_tree", "d9/dde/classbinary__search__tree.html", "d9/dde/classbinary__search__tree" ],
     [ "Btree", "d9/d90/struct_btree.html", "d9/d90/struct_btree" ],

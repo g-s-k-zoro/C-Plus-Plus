@@ -123,16 +123,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "",
-"cpp/io/manip/endl.html",
-"cpp/string/wide/towctrans.html",
-"d1/dc7/linear__probing__hash__table_8cpp.html#a4fdb68db9f02ae4156e1845563004f8e",
-"d3/dce/linkedlist__implentation__usingarray_8cpp.html#ac2fa82ac5ae366cc3aca53a40bb7cd70",
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md44",
-"d7/d07/bidirectional__dijkstra_8cpp.html#a6f92fe022b7e5d453f7257d763b6f3e2",
-"d8/d99/connected__components__with__dsu_8cpp.html#ac2d6698b71384a352ec4b81b31b13141",
-"da/d9a/class_graph.html#a13697caf8be6275ebb7b9497c9a9d6e5",
-"dc/d93/trie__modern_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"de/dcf/binary__exponent_8cpp.html#aeb48dce0725e63d19147944f41843c73"
+"cpp/io/manip/boolalpha.html",
+"cpp/string/wide/iswxdigit.html",
+"d1/dc7/linear__probing__hash__table_8cpp.html#a4bde7a47f98dd1ad24c84038e2608527",
+"d3/dce/linkedlist__implentation__usingarray_8cpp.html#ab84c7d9bed2aa1ade1fd61fbf5c2e07e",
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md43",
+"d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e",
+"d8/d99/connected__components__with__dsu_8cpp.html#aa93bd9d3409fe4eeb7e5658eddd75fa8",
+"da/d9a/class_graph.html#a04365fc6f13bf330e38dbc1424134827",
+"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#ace9c37dd1322d3745de9713c90df8003",
+"de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
