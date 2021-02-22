@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d37/classtrie__operations_1_1_tnode.html#af20e8bc31d7f3a8bcca10b30bb37c250" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d0/d37/classtrie__operations_1_1_tnode.html#a1a74d2afe49091e6255b64d6db306d90" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175.5,-49.5 175.5,-79.5 288.5,-79.5 288.5,-49.5 175.5,-49.5"/>
 <text text-anchor="start" x="183.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">trie_operations::Tnode</text>
 <text text-anchor="middle" x="232" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SelectionTop_3</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d37/classtrie__operations_1_1_tnode.html#acd29f604050a92cdb60f6050e5d76380" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d0/d37/classtrie__operations_1_1_tnode.html#adec73d8d54cb0305e021f64e1fd9ea4c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-0.5 163,-30.5 301,-30.5 301,-0.5 163,-0.5"/>
 <text text-anchor="start" x="171" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">trie_operations::Tnode</text>
 <text text-anchor="middle" x="232" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SuggestFreqAutocomplete</text>
