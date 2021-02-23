@@ -124,24 +124,34 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:af58f175cd8a2d29d43b67e1fb7727807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3209b6df4f2ab4a6f3a8fa9b3f564bd2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a3209b6df4f2ab4a6f3a8fa9b3f564bd2">numberOfChildren</a> (<a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> *<a class="el" href="../../d5/da1/structnode.html">node</a>)</td></tr>
+<tr class="memdesc:a3209b6df4f2ab4a6f3a8fa9b3f564bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to count the number of children a node in the trie has.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a3209b6df4f2ab4a6f3a8fa9b3f564bd2">More...</a><br /></td></tr>
 <tr class="separator:a3209b6df4f2ab4a6f3a8fa9b3f564bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ecb75b985b1ffc575a880274f855b1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a7ecb75b985b1ffc575a880274f855b1c">Insert</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;entry)</td></tr>
+<tr class="memdesc:a7ecb75b985b1ffc575a880274f855b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to insert a word in the trie.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a7ecb75b985b1ffc575a880274f855b1c">More...</a><br /></td></tr>
 <tr class="separator:a7ecb75b985b1ffc575a880274f855b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd24626ac47277431c9b8604e064340"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aefd24626ac47277431c9b8604e064340">Delete</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> entry)</td></tr>
+<tr class="memdesc:aefd24626ac47277431c9b8604e064340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to verify presence and hence delete an entry from the trie.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aefd24626ac47277431c9b8604e064340">More...</a><br /></td></tr>
 <tr class="separator:aefd24626ac47277431c9b8604e064340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adef6940391f981ab86767775176b7169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#adef6940391f981ab86767775176b7169">DeleteFrom</a> (<a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> *delete_from, <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> delete_string, int remove_index)</td></tr>
+<tr class="memdesc:adef6940391f981ab86767775176b7169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function recursively deletes the substring character by character iterating through the string to be deleted. It traverses till the end of word in a recursive fashion, from there it deletes characters one by one till it reaches back to the initial call.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#adef6940391f981ab86767775176b7169">More...</a><br /></td></tr>
 <tr class="separator:adef6940391f981ab86767775176b7169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a624fcdf3c3beb2025d69f2cfda8023"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a4a624fcdf3c3beb2025d69f2cfda8023">SearchPresence</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;key)</td></tr>
+<tr class="memdesc:a4a624fcdf3c3beb2025d69f2cfda8023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to check a word's presence in the trie (Basic)  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a4a624fcdf3c3beb2025d69f2cfda8023">More...</a><br /></td></tr>
 <tr class="separator:a4a624fcdf3c3beb2025d69f2cfda8023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097913c4badec2b60d50a171ecc299fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a097913c4badec2b60d50a171ecc299fe">SuggestAutocomplete</a> (<a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> *new_root, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;prefix)</td></tr>
+<tr class="memdesc:a097913c4badec2b60d50a171ecc299fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursive function to suggest all the entries of trie which have a given common prefix.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a097913c4badec2b60d50a171ecc299fe">More...</a><br /></td></tr>
 <tr class="separator:a097913c4badec2b60d50a171ecc299fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18b70172ca4fb2811dbfb9a86e48b34c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a18b70172ca4fb2811dbfb9a86e48b34c">SearchSuggestions</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;key)</td></tr>
+<tr class="memdesc:a18b70172ca4fb2811dbfb9a86e48b34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists out all the words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and if the search key is "abcdezz", then the longest common prefix is "abcde" and hence search results will be "abcde", "abcdefg".  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a18b70172ca4fb2811dbfb9a86e48b34c">More...</a><br /></td></tr>
 <tr class="separator:a18b70172ca4fb2811dbfb9a86e48b34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e556f52c837190ecf4265b1f05cfe9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c">SuggestFreqAutocomplete</a> (<a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html">Tnode</a> *new_root, const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;prefix, <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/priority_queue.html">std::priority_queue</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; int, <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &gt; *suggestions)</td></tr>
+<tr class="memdesc:a9e556f52c837190ecf4265b1f05cfe9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursive function to suggest most frequently searched entries of trie which have a given common prefix.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c">More...</a><br /></td></tr>
 <tr class="separator:a9e556f52c837190ecf4265b1f05cfe9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c5ab271d8042540f64ef16d259d1503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a7c5ab271d8042540f64ef16d259d1503">SearchFreqSuggestions</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;key)</td></tr>
+<tr class="memdesc:a7c5ab271d8042540f64ef16d259d1503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists out the most frequent words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and they have been previously searched for 3, 1, 2, 4 times respectively, if the search key is "ab", then the longest common prefix is "ab" and only the top 3 frequencies among the matches would be displayed viz. "abcddef", "abc", "abcdefg".  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a7c5ab271d8042540f64ef16d259d1503">More...</a><br /></td></tr>
 <tr class="separator:a7c5ab271d8042540f64ef16d259d1503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacafb8c9f3ebac7ac6c01d9645bb67b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6">SelectionTop_3</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/priority_queue.html">std::priority_queue</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; int, <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &gt; *suggestions)</td></tr>
+<tr class="memdesc:aacafb8c9f3ebac7ac6c01d9645bb67b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to display the 3 suggestions with highest frequency of search hits.  <a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6">More...</a><br /></td></tr>
 <tr class="separator:aacafb8c9f3ebac7ac6c01d9645bb67b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -180,9 +190,11 @@ static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>ENGLI
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Delete : Function to verify presence and hence delete an entry from the trie </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function to verify presence and hence delete an entry from the trie. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">entry</td><td>: The string entry to be deleted from the trie </td></tr>
+    <tr><td class="paramname">entry</td><td>the string entry to be deleted from the trie </td></tr>
   </table>
   </dd>
 </dl>
@@ -247,8 +259,8 @@ static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>ENGLI
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;}</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a3209b6df4f2ab4a6f3a8fa9b3f564bd2"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a3209b6df4f2ab4a6f3a8fa9b3f564bd2">operations_on_datastructures::trie_operations::Tnode::numberOfChildren</a></div><div class="ttdeci">int numberOfChildren(Tnode *node)</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:68</div></div>
-<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_adef6940391f981ab86767775176b7169"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#adef6940391f981ab86767775176b7169">operations_on_datastructures::trie_operations::Tnode::DeleteFrom</a></div><div class="ttdeci">void DeleteFrom(Tnode *delete_from, std::string delete_string, int remove_index)</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:138</div></div>
+<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a3209b6df4f2ab4a6f3a8fa9b3f564bd2"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a3209b6df4f2ab4a6f3a8fa9b3f564bd2">operations_on_datastructures::trie_operations::Tnode::numberOfChildren</a></div><div class="ttdeci">int numberOfChildren(Tnode *node)</div><div class="ttdoc">Function to count the number of children a node in the trie has.</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:68</div></div>
+<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_adef6940391f981ab86767775176b7169"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#adef6940391f981ab86767775176b7169">operations_on_datastructures::trie_operations::Tnode::DeleteFrom</a></div><div class="ttdeci">void DeleteFrom(Tnode *delete_from, std::string delete_string, int remove_index)</div><div class="ttdoc">Function recursively deletes the substring character by character iterating through the string to be ...</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:138</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="asize_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">std::string::size</a></div><div class="ttdeci">T size(T... args)</div></div>
 <div class="ttc" id="atolower_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/byte/tolower.html">std::tolower</a></div><div class="ttdeci">T tolower(T... args)</div></div>
@@ -292,11 +304,13 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Helper Function for Delete : Recursively deletes the substring character by character iterating through the string to be deleted. It traverses till the end of word in a recursive fashion, from there it deletes characters one by one till it reaches back to the initial call. </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function recursively deletes the substring character by character iterating through the string to be deleted. It traverses till the end of word in a recursive fashion, from there it deletes characters one by one till it reaches back to the initial call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">delete_from</td><td>: The acting root to the required suffix to be deleted </td></tr>
-    <tr><td class="paramname">delete_string</td><td>: The string to be deleted from the trie </td></tr>
-    <tr><td class="paramname">remove_index</td><td>: Index denoting the beginning of the substring to be deleted </td></tr>
+    <tr><td class="paramname">delete_from</td><td>the acting root to the required suffix to be deleted </td></tr>
+    <tr><td class="paramname">delete_string</td><td>the string to be deleted from the trie </td></tr>
+    <tr><td class="paramname">remove_index</td><td>index denoting the beginning of the substring to be deleted </td></tr>
   </table>
   </dd>
 </dl>
@@ -334,9 +348,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Insert : Function to insert a word in the trie </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function to insert a word in the trie. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">entry</td><td>: The string entry to be inserted in the trie </td></tr>
+    <tr><td class="paramname">entry</td><td>the string entry to be inserted in the trie </td></tr>
   </table>
   </dd>
 </dl>
@@ -385,9 +401,11 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>numberOfChildren : To count the number of children a node in the trie has </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function to count the number of children a node in the trie has. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">node</td><td>: A trie node whose children need to be counted </td></tr>
+    <tr><td class="paramname">node</td><td>a trie node whose children need to be counted </td></tr>
   </table>
   </dd>
 </dl>
@@ -420,9 +438,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SearchSuggestions : Lists out the most frequent words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and they have been previously searched for 3, 1, 2, 4 times respectively, if the search key is "ab", then the longest common prefix is "ab" and only the top 3 frequencies among the matches would be displayed viz. "abcddef", "abc", "abcdefg". </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Lists out the most frequent words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and they have been previously searched for 3, 1, 2, 4 times respectively, if the search key is "ab", then the longest common prefix is "ab" and only the top 3 frequencies among the matches would be displayed viz. "abcddef", "abc", "abcdefg". </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>: The string key to be searched for suggestions </td></tr>
+    <tr><td class="paramname">key</td><td>the string key to be searched for suggestions </td></tr>
   </table>
   </dd>
 </dl>
@@ -477,8 +497,8 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;}</div>
 <div class="ttc" id="abasic_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></div></div>
-<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a9e556f52c837190ecf4265b1f05cfe9c"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c">operations_on_datastructures::trie_operations::Tnode::SuggestFreqAutocomplete</a></div><div class="ttdeci">void SuggestFreqAutocomplete(Tnode *new_root, const std::string &amp;prefix, std::priority_queue&lt; std::pair&lt; int, std::string &gt; &gt; *suggestions)</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:342</div></div>
-<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_aacafb8c9f3ebac7ac6c01d9645bb67b6"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6">operations_on_datastructures::trie_operations::Tnode::SelectionTop_3</a></div><div class="ttdeci">void SelectionTop_3(std::priority_queue&lt; std::pair&lt; int, std::string &gt; &gt; *suggestions)</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:322</div></div>
+<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a9e556f52c837190ecf4265b1f05cfe9c"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c">operations_on_datastructures::trie_operations::Tnode::SuggestFreqAutocomplete</a></div><div class="ttdeci">void SuggestFreqAutocomplete(Tnode *new_root, const std::string &amp;prefix, std::priority_queue&lt; std::pair&lt; int, std::string &gt; &gt; *suggestions)</div><div class="ttdoc">Recursive function to suggest most frequently searched entries of trie which have a given common pref...</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:342</div></div>
+<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_aacafb8c9f3ebac7ac6c01d9645bb67b6"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6">operations_on_datastructures::trie_operations::Tnode::SelectionTop_3</a></div><div class="ttdeci">void SelectionTop_3(std::priority_queue&lt; std::pair&lt; int, std::string &gt; &gt; *suggestions)</div><div class="ttdoc">Function to display the 3 suggestions with highest frequency of search hits.</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:322</div></div>
 <div class="ttc" id="apriority_queue_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/priority_queue.html">std::priority_queue</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -504,9 +524,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SearchPresence : Function to check a word's presence in the trie (Basic) </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function to check a word's presence in the trie (Basic) </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>: The string key to be searched in the trie </td></tr>
+    <tr><td class="paramname">key</td><td>the string key to be searched in the trie </td></tr>
   </table>
   </dd>
 </dl>
@@ -552,9 +574,11 @@ false if the key is not found </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SearchSuggestions : Lists out all the words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and if the search key is "abcdezz", then the longest common prefix is "abcde" and hence search results will be "abcde", "abcdefg". </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Lists out all the words in trie with the longest prefix of the search key that is present in the trie. For example - if trie contains "abc", "abcde", "abcdefg", "abcddef" and if the search key is "abcdezz", then the longest common prefix is "abcde" and hence search results will be "abcde", "abcdefg". </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>: The string key to be searched for suggestions </td></tr>
+    <tr><td class="paramname">key</td><td>the string key to be searched for suggestions </td></tr>
   </table>
   </dd>
 </dl>
@@ -597,7 +621,7 @@ false if the key is not found </dd></dl>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
-<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a097913c4badec2b60d50a171ecc299fe"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a097913c4badec2b60d50a171ecc299fe">operations_on_datastructures::trie_operations::Tnode::SuggestAutocomplete</a></div><div class="ttdeci">void SuggestAutocomplete(Tnode *new_root, const std::string &amp;prefix)</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:251</div></div>
+<div class="ttc" id="aclassoperations__on__datastructures_1_1trie__operations_1_1_tnode_html_a097913c4badec2b60d50a171ecc299fe"><div class="ttname"><a href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a097913c4badec2b60d50a171ecc299fe">operations_on_datastructures::trie_operations::Tnode::SuggestAutocomplete</a></div><div class="ttdeci">void SuggestAutocomplete(Tnode *new_root, const std::string &amp;prefix)</div><div class="ttdoc">Recursive function to suggest all the entries of trie which have a given common prefix.</div><div class="ttdef"><b>Definition:</b> trie_multiple_search.cpp:251</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -622,9 +646,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SelectionTop_3 : Function to display the 3 suggestions with highest frequency of search hits </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Function to display the 3 suggestions with highest frequency of search hits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">suggestions</td><td>: A max heap that contains pairs of (frequency, word) heapified based on frequency </td></tr>
+    <tr><td class="paramname">suggestions</td><td>a max heap that contains pairs of (frequency, word) heapified based on frequency </td></tr>
   </table>
   </dd>
 </dl>
@@ -673,10 +699,12 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SuggestAutocomplete : Recursive function to suggest all the entries of trie which have a given common prefix </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Recursive function to suggest all the entries of trie which have a given common prefix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new_root</td><td>: Pointer pointing to the node corresponding to the last char of prefix </td></tr>
-    <tr><td class="paramname">prefix</td><td>: The common prefix that all the suggestions must have </td></tr>
+    <tr><td class="paramname">new_root</td><td>pointer pointing to the node corresponding to the last char of prefix </td></tr>
+    <tr><td class="paramname">prefix</td><td>the common prefix that all the suggestions must have </td></tr>
   </table>
   </dd>
 </dl>
@@ -736,11 +764,13 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SuggestFreqAutocomplete : Recursive function to suggest most frequently searched entries of trie which have a given common prefix </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Recursive function to suggest most frequently searched entries of trie which have a given common prefix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new_root</td><td>: Pointer pointing to the node corresponding to the last char of prefix </td></tr>
-    <tr><td class="paramname">prefix</td><td>: The common prefix that all the suggestions must have </td></tr>
-    <tr><td class="paramname">suggestions</td><td>: A max heap that contains pairs of (frequency, word) heapified based on frequency </td></tr>
+    <tr><td class="paramname">new_root</td><td>pointer pointing to the node corresponding to the last char of prefix </td></tr>
+    <tr><td class="paramname">prefix</td><td>the common prefix that all the suggestions must have </td></tr>
+    <tr><td class="paramname">suggestions</td><td>a max heap that contains pairs of (frequency, word) heapified based on frequency </td></tr>
   </table>
   </dd>
 </dl>

@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Lists out the most frequent words in trie with the longest prefix of the search key that is present i...">
 <polygon fill="#bfbfbf" stroke="black" points="0,-60.5 0,-101.5 145,-101.5 145,-60.5 0,-60.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">operations_on_datastructures</text>
 <text text-anchor="start" x="8" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">::trie_operations::Tnode</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#aacafb8c9f3ebac7ac6c01d9645bb67b6" target="_top" xlink:title="Function to display the 3 suggestions with highest frequency of search hits.">
 <polygon fill="white" stroke="black" points="181,-60.5 181,-101.5 326,-101.5 326,-60.5 181,-60.5"/>
 <text text-anchor="start" x="189" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">operations_on_datastructures</text>
 <text text-anchor="start" x="189" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">::trie_operations::Tnode</text>
@@ -55,7 +55,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a9e556f52c837190ecf4265b1f05cfe9c" target="_top" xlink:title="Recursive function to suggest most frequently searched entries of trie which have a given common pref...">
 <polygon fill="white" stroke="black" points="181,-0.5 181,-41.5 326,-41.5 326,-0.5 181,-0.5"/>
 <text text-anchor="start" x="189" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">operations_on_datastructures</text>
 <text text-anchor="start" x="189" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">::trie_operations::Tnode</text>
