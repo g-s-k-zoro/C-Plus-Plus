@@ -81,7 +81,7 @@ var searchData=
   ['number_5fof_5fpositive_5fdivisors_1371',['number_of_positive_divisors',['../d0/da2/number__of__positive__divisors_8cpp.html#ad89ccced8504b5116046cfa03066ffeb',1,'number_of_positive_divisors.cpp']]],
   ['number_5fof_5fpositive_5fdivisors_2ecpp_1372',['number_of_positive_divisors.cpp',['../d0/da2/number__of__positive__divisors_8cpp.html',1,'']]],
   ['number_5fof_5fvertices_1373',['number_of_vertices',['../dc/d61/classgraph_1_1_graph.html#a8930d1470d132b19e430d1c71f94c904',1,'graph::Graph']]],
-  ['numberofchildren_1374',['numberOfChildren',['../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#a3209b6df4f2ab4a6f3a8fa9b3f564bd2',1,'operations_on_datastructures::trie_operations::Tnode']]],
+  ['numberofchildren_1374',['numberOfChildren',['../d0/d5f/classoperations__on__datastructures_1_1trie__operations_1_1_tnode.html#afca808362c13273ca8c8ae7d58e8eee0',1,'operations_on_datastructures::trie_operations::Tnode']]],
   ['numeric_5flimits_1375',['numeric_limits',['http://en.cppreference.com/w/cpp/types/numeric_limits.html',0,'std']]],
   ['numerical_5fmethods_1376',['numerical_methods',['../d1/de0/namespacenumerical__methods.html',1,'']]],
   ['numpunct_1377',['numpunct',['http://en.cppreference.com/w/cpp/locale/numpunct/numpunct.html',0,'std::numpunct::numpunct()'],['http://en.cppreference.com/w/cpp/locale/numpunct.html',0,'std::numpunct']]],
